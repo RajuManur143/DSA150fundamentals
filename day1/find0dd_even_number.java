@@ -3,17 +3,32 @@ import java.util.Scanner;
 
 public class find0dd_even_number {
 
+    public static boolean isPrime(int num) {
+        if (num <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static void main(String args[]) {
             Scanner sc = new Scanner(System.in);
 
             System.out.print("Enter a number: ");
             int num = sc.nextInt();
 
-            if (num % 2 == 0) {
-                System.out.print("even number"+num);
+            boolean result = isPrime(num);
+
+            if (result) {
+                System.out.println("This is prime"+result);
             }
             else{
-                System.out.print("odd number"+num);
+                System.out.println("Not prime number" + result);
             }
 
     }
