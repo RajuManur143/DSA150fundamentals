@@ -1,5 +1,5 @@
 package DAY2;
-import java.util.Scanner;;
+import java.util.Scanner;
 
 public class divisibleby5 {
     public static void main(String args[]) {
