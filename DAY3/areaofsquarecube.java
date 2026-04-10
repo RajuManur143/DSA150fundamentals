@@ -24,5 +24,7 @@ public class areaofsquarecube {
 
         System.out.println("Square: " + sq);
         System.out.println("Cube: " + cb);
+
+        sc.close();
     }
 }

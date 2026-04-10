@@ -7,6 +7,7 @@ public class sizeofdatatypes {
         System.out.println(Float.SIZE);
         System.out.println(Short.SIZE);
         System.out.println(Character.SIZE);
+
         
     }
 }
