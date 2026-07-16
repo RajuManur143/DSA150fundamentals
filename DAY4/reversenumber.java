@@ -1,3 +1,4 @@
+package DAY4;
 
 import java.util.Scanner;
 
