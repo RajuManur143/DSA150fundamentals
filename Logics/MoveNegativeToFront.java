@@ -23,7 +23,7 @@ public class MoveNegativeToFront {
                 arr[right] = temp;
 
                 left++;
-                right--;
+                right++;
             }
         }
 
